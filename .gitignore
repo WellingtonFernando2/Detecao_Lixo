@@ -1,0 +1,30 @@
+# ambiente virtual e arquivos gerados
+.venv/
+__pycache__/
+*.pyc
+runs/
+relatorios/
+weights/
+
+# fotos pessoais e datasets (pesados e com imagens da casa do autor; o conjunto de dados e publicado a parte)
+fotos_brutas/
+dataset/
+dataset_pequeno/
+dataset_v3/
+data/dataset_v3.yaml
+exports/
+
+# pesos base que o Ultralytics baixa sozinho
+yolov8n.pt
+yolo*.pt
+
+# modelos treinados: so o final entra no repositorio
+modelos/*.pt
+!modelos/pequeno_v2.pt
+
+# copia antiga do projeto
+tcc_lixo_yolo/
+
+# scripts do primeiro fluxo (dataset publico), nao usados no projeto final
+scripts/preparar_dataset_roboflow.py
+scripts/adicionar_negativos.py

@@ -1,0 +1,19 @@
+# Modelo de configuracao do conjunto de dados. O scripts/montar_dataset.py gera
+# o arquivo data/dataset_pequeno.yaml ja preenchido; use este como referencia.
+#
+# Estrutura esperada da pasta do conjunto de dados:
+#   dataset_pequeno/
+#     images/train/*.jpg
+#     images/val/*.jpg
+#     labels/train/*.txt
+#     labels/val/*.txt
+
+path: ../dataset_pequeno
+train: images/train
+val: images/val
+
+names:
+  0: metal
+  1: papel
+  2: plastico
+  3: vidro

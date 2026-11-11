@@ -1,0 +1,12 @@
+# Conjunto de dados do modelo final (pequeno_v2).
+# O caminho abaixo e relativo: rode os comandos a partir da pasta principal do projeto,
+# onde fica a pasta dataset_pequeno (veja o README.md).
+path: dataset_pequeno
+train: images/train
+val: images/val
+
+names:
+  0: metal
+  1: papel
+  2: plastico
+  3: vidro

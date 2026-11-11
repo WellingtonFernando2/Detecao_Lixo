@@ -1,0 +1,10 @@
+# Versoes exatas usadas no trabalho (Windows 11, Python 3.12.7, placa NVIDIA com CUDA 12.1).
+# A linha abaixo indica de onde baixar o PyTorch com suporte a placa de video.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+ultralytics==8.4.153
+opencv-python==5.0.0.93
+numpy==2.5.3
+lap==0.5.13
+cv2_enumerate_cameras==1.4.0
